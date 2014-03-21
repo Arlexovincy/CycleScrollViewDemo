@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CycleScrollView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CycleScrollViewDelegate>
 
 @end
